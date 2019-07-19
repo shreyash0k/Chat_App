@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sk.myapplication"
+    
+    >
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon2"
+        android:label="FM Radio"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".activity_find">
+
+        </activity>
+        <activity android:name=".activity_home">
+
+
+        </activity>
+        <activity android:name=".Activity_Profile">
+
+        </activity>
+        <activity android:name=".activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>>
+        </activity>
+        <activity android:name=".activity_signup" />
+        <activity android:name=".Activity_fmradio">
+
+        </activity>
+        <activity android:name=".Activity_Chat1">
+
+        </activity>
+
+
+        <activity android:name=".StationList">
+
+        </activity>
+
+        <activity android:name=".forget"></activity>
+
+
+
+
+
+
+        <activity android:name=".Activity_Password">
+
+        </activity>
+
+    </application>
+
+</manifest>

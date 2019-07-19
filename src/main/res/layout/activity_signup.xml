@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black">
+
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        app:title="Sign Up"
+        android:background="@color/colorPrimary"
+        android:id="@+id/tb2">
+
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/E1"
+        android:layout_below="@+id/tb2"
+        android:hint="First Name"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:paddingTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/E2"
+        android:hint="Last Name"
+        android:layout_below="@+id/E1"
+        android:paddingTop="15dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/E8"
+        android:hint="Username"
+        android:layout_below="@+id/E2"
+        android:paddingTop="15dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/E3"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/E8"
+        android:paddingTop="15dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/E4"
+        android:hint="Password"
+        android:layout_below="@+id/E3"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:paddingTop="15dp"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="Add ACCOUNT"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/E4"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Already have an account? Click Here"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:id="@+id/tv18"
+            android:clickable="true"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

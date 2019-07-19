@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6F6F6"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFDCDCDC"
+        >
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:onClick="clickExit"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        android:id="@+id/fb1"
+        app:rippleColor="@color/colorPrimaryDark"
+        app:backgroundTint="#FF5E5E5E"
+        app:elevation="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="#FF696969"
+
+        android:id="@+id/tv11"
+        />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/fmdots"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.63"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            android:id="@+id/fb2"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            app:backgroundTint="@android:color/black"
+            app:rippleColor="@color/colorPrimaryDark"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            android:layout_weight="1"
+            android:id="@+id/fb3"
+            app:srcCompat="@android:drawable/ic_menu_more"
+
+            app:backgroundTint="@android:color/black"
+            app:rippleColor="@color/colorPrimaryDark"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            android:id="@+id/fb4"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_next"
+            android:layout_marginLeft="20dp"
+            app:backgroundTint="@android:color/black"
+            app:rippleColor="@color/colorPrimaryDark"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
