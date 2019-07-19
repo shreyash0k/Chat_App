@@ -7,4 +7,4 @@ FM Radio interface is acting like app lock your password frequency example: 83.5
 Code Guide:
 code is inside 'src' folder
 
-"You can install the application to your phone from the folder 'app' and you can register! "
+"You can install the application to your phone from the folder 'app-debug' and you can register! "
