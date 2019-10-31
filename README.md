@@ -1,7 +1,7 @@
 # Chat_App
-<img src = "Screenshot%20with%20ppt/device-2017-03-16-184426" width = "240" height="540">
+<img src = "Images/ss2.jpg" width = "240" height="540">
 <br>
-<img src = "Screenshot%20with%20ppt/device-2017-03-16-184451" width = "240" height="540">
+<img src = "Images/ss3.jpg" width = "240" height="540">
 <br>
 <h3>This is chat application developed using android studio backend is firebase.<br>
 in this application, chat interface is hidden behind FM Radio interface <br>
